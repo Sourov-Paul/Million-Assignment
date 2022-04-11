@@ -1,0 +1,89 @@
+
+header{
+    background-image: url('https://i.postimg.cc/d38p0yL3/bg1.png');
+    height: 22vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%
+}
+.maincontact{
+    overflow: hidden;
+}
+input,textarea{
+    background: rgba(196, 196, 196, 0.28) !important;
+    
+}
+.emailNam{
+    font-size:22px !important
+  
+}
+
+span.phoneName,.someText,.textss, .addressName {
+    color: #5C5C5C;
+    font-weight: 600;
+}
+button.border-0.p-3 {
+    width: 318px;
+    max-width: 100%;
+    background: #051D33;
+    color:white
+}
+label,.addressNam,.phoneNam{
+    color: #051D33;
+    font-size:22px !important
+}
+span.emailName.fw-bold{
+    font-weight: 600 !important;
+}
+/* footer start */
+
+.mainFooter {
+    margin: 0px 50px !important;
+    
+    padding: 20px 0px !important;
+}
+.firstFooter{
+    background-color: #051D33;
+    color: white;
+}
+.col-sm-12.col-md-3.col-lg-4.fo ul li{
+    list-style: none;
+}
+.appsMain{
+    margin: 0px 20px;
+}
+img.fLogo, 
+img.app1,
+img.app2 {
+    width:150px !important
+}
+i.fa-brands.fa-facebook.p-3 {
+    background: #272EAE;
+    font-size: 20px;
+}
+
+i.fa-brands.fa-twitter.p-3 {
+    background:#1590D8;
+    font-size: 20px;
+}
+
+i.fa-brands.fa-youtube.p-3 {
+    background:red;
+    font-size: 20px;
+}
+
+
+.active-link{
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 304px) {
+    .lolo,img.fLogo,img.app1,img.app2{
+        width: 100px !important;
+    }
+    .images.d-flex{
+        display: flex!important;
+    flex-direction: column;
+    }
+}

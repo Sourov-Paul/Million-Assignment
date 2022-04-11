@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+/* google font cdn */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=IBM+Plex+Sans:wght@700&family=Montserrat:ital,wght@1,600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=IBM+Plex+Sans:wght@700&family=Montserrat:ital,wght@1,600&family=Open+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+/* footer end */
+
+.ddd {display: flex;flex-direction: column;}
+
+.secondSection{
+    background-image: url('../src/images/Ellipse11.png');
+    
+    background-repeat:no-repeat
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* service start */
+.service{
+    color: #BA2422;
+}
+.serClr{
+    color: #777777;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+p.textss.ml-4 {width: 400px;max-width: 100%;}
+.videoCls{
+    width: 1190px;
+    max-width: 100%;
+    
+}
+.mainJobs{
+    color: white;
+    background: linear-gradient(111.05deg, #FF4E50 -38.71%, #F9D423 103.54%)
+}
+button.bolded.pb-1 {
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+.imag{
+    width: 50%!important
+}
+/* service  end */
+
+/* about start */
+.secondAbout{
+    overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.world{
+    background-color:#53AFA4
+}
+img.imdd {position: absolute;height: 229px;}
+
+.world.m-3.p-5 {z-index: 1000;position: relative;right: 100px;width: 50%;}
+
+.about{
+    background-image: url('../src/images/image\ 3.png');
+    height: 550px;
+    background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.logox {
+    background-color: white;
+    padding: 10px;width: 167px;max-width: 100%;border-radius: 10px;}
+
+
+
+
+
+
+
+/* about end */

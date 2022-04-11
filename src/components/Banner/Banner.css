@@ -1,0 +1,33 @@
+
+/* service start */
+.service{
+    color: #BA2422;
+}
+.serClr{
+    color: #777777;
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+p.textss.ml-4 {width: 400px;max-width: 100%;}
+.videoCls{
+    width: 1190px;
+    max-width: 100%;
+    
+}
+.mainJobs{
+    color: white;
+    background: linear-gradient(111.05deg, #FF4E50 -38.71%, #F9D423 103.54%)
+}
+button.bolded.pb-1 {
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+.imag{
+    width: 50%!important
+}

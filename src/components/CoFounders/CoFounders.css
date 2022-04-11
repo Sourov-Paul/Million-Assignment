@@ -1,0 +1,13 @@
+
+.mainCoFounder{
+    background-image: url('https://i.postimg.cc/sXpGvMGT/Ellipse-13.png'),url('https://i.postimg.cc/7LhVc8Qx/Untitled-design-2.png');
+    background-position: right , left ;
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+    max-height: 100%;
+}
+    .mainCoFounder {overflow: hidden;}
+    .ioios {
+        height: 150px;
+        border-radius: 50%!important;
+    }
